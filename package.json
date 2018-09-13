@@ -1,0 +1,27 @@
+{
+  "name": "box",
+  "version": "1.0.0",
+  "description": "积木盒子",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sen-miao/box.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sen-miao/box/issues"
+  },
+  "homepage": "https://github.com/sen-miao/box#readme",
+  "devDependencies": {
+    "electron": "^2.0.8",
+    "lerna": "^2.11.0"
+  },
+  "dependencies": {
+    "antd": "^3.9.2"
+  }
+}

@@ -1,0 +1,41 @@
+{
+  "name": "ux",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "next:dev": "next dev",
+    "next:build": "next build",
+    "next:start": "next start",
+    "start": "egg-scripts start --daemon",
+    "stop": "egg-scripts stop",
+    "dev": "egg-bin dev",
+    "test": "egg-bin test",
+    "cov": "egg-bin cov"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "dataloader": "^1.4.0",
+    "egg": "^2.11.0",
+    "egg-graphql": "^2.1.0",
+    "egg-nextjs": "^1.0.0",
+    "egg-sequelize": "^4.1.0",
+    "egg-validate": "^2.0.1",
+    "egg-view-nunjucks": "^2.2.0",
+    "egg-view-react": "^1.1.0",
+    "egg-view-react-ssr": "^2.3.1",
+    "graphql": "^14.0.2",
+    "lodash": "^4.17.11",
+    "mysql2": "^1.6.1",
+    "next": "^6.1.2",
+    "nunjucks": "^3.1.3",
+    "react": "^16.5.0",
+    "react-dom": "^16.5.0"
+  },
+  "devDependencies": {
+    "egg-bin": "^4.8.5",
+    "egg-scripts": "^2.9.1"
+  }
+}
